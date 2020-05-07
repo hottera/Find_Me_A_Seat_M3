@@ -7,19 +7,18 @@
     tools:context=".start">
 
     <Button
-        android:id="@+id/button"
         android:layout_width="208dp"
         android:layout_height="64dp"
         android:layout_marginBottom="172dp"
         android:background="#FFFF90"
-        android:text="Log in"
+        android:onClick="go_log_in"
+        android:text="@string/log_in_button_1"
         android:textAllCaps="false"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="go_log_in"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <RelativeLayout
         android:id="@+id/relativelayout"
@@ -36,7 +35,6 @@
             android:src="@drawable/start_1" />
 
         <TextView
-            android:id="@+id/myImageViewText"
             android:layout_width="410dp"
             android:layout_height="273dp"
             android:layout_alignLeft="@id/myImageView"
@@ -50,26 +48,25 @@
             android:layout_marginRight="2dp"
             android:layout_marginBottom="4dp"
             android:gravity="center"
-            android:text="Find me\na\nSeat"
+            android:text="@string/start_title"
             android:textColor="#000000"
             android:textSize="60dp" />
 
     </RelativeLayout>
 
     <Button
-        android:id="@+id/button2"
         android:layout_width="208dp"
         android:layout_height="64dp"
         android:layout_marginBottom="68dp"
         android:background="#FFFFFF"
         android:backgroundTint="#2942CD"
-        android:text="Sign Up"
+        android:onClick="go_register"
+        android:text="@string/reg_button"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="go_register"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

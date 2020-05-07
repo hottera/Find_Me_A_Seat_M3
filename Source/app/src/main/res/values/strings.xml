@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Find me a Seat</string>
+    <string name="start_t">HCI SS20 Find me a Seat</string>
+    <string name="log_in_t">Anmeldung mit U:Account</string>
+    <string name="reg_t">Neues Konto aktivieren</string>
+    <string name="start_title">Find me\na\nSeat</string>
+    <string name="log_in_text">Hallo du!</string>
+    <string name="log_in_hint_1">U:Account</string>
+    <string name="log_in_hint_2">Passwort</string>
+    <string name="log_in_button_1">Log in</string>
+    <string name="register_text">Willkommen</string>
+    <string name="reg_hint_1">Benutzername (sichtbar)</string>
+    <string name="reg_hint_2">U:Account</string>
+    <string name="reg_hint_3">Passwort</string>
+    <string name="reg_button">Sign Up</string>
+
+
 </resources>
