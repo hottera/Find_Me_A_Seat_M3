@@ -13,10 +13,10 @@ public class log_in extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
     }
-/*
+
     public void go_main(View view) {
-        Intent change = new Intent(this, main.class);
+        Intent change = new Intent(this, navMain.class);
         startActivity(change);
     }
-*/
+
 }
